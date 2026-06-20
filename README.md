@@ -1,8 +1,21 @@
 # 🧠 RAG Knowledge Base
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![LangChain](https://img.shields.io/badge/LangChain-RAG-green)
+![ChromaDB](https://img.shields.io/badge/VectorDB-Chroma-orange)
+![Streamlit](https://img.shields.io/badge/UI-Streamlit-red)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 An AI-powered Retrieval-Augmented Generation (RAG) application that enables users to upload documents and interact with them through natural language queries.
 
 Built using **LangChain**, **ChromaDB**, **Hugging Face**, and **Streamlit**, this project combines semantic search with Large Language Models (LLMs) to provide accurate, context-aware answers grounded in uploaded documents.
+
+## 🔗 Live Demo
+
+Try the application here:
+
+**Demo:** https://your-streamlit-link.streamlit.app
+
+**GitHub:** https://github.com/adityaxgoswami/rag-knowledge-base
 
 ---
 
@@ -86,51 +99,19 @@ SEO Optimizer.pdf — page 2
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ System Architecture
 
-```text
-                ┌─────────────────┐
-                │ Uploaded Files  │
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │ Document Loader │
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │ Text Splitter   │
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │ Embeddings      │
-                │ (MiniLM)        │
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │ ChromaDB        │
-                │ Vector Store    │
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │ Retriever       │
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │ Hugging Face    │
-                │ LLM             │
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │ Final Answer    │
-                └─────────────────┘
-```
+![Architecture](assets/architecture.png)
+
+The application follows a Retrieval-Augmented Generation (RAG) workflow:
+
+1. Documents are uploaded and processed.
+2. Text is split into chunks.
+3. Chunks are converted into vector embeddings.
+4. Embeddings are stored in ChromaDB.
+5. User queries trigger semantic retrieval.
+6. Relevant chunks are passed as context to the LLM.
+7. The LLM generates grounded responses with source citations.
 
 ---
 
