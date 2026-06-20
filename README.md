@@ -271,6 +271,19 @@ Paste a URL and ingest web content into the knowledge base.
 9. Sources are displayed to the user
 
 ---
+## 📊 Technical Metrics
+
+| Metric               | Value                      |
+| -------------------- | -------------------------- |
+| Embedding Model      | all-MiniLM-L6-v2           |
+| Vector Database      | ChromaDB                   |
+| Retrieval Strategy   | Similarity Search          |
+| Top-K Retrieval      | 4 Documents                |
+| Supported Formats    | PDF, TXT, MD, URL          |
+| Framework            | LangChain                  |
+| Frontend             | Streamlit                  |
+| LLM Provider         | Hugging Face Inference API |
+| Programming Language | Python                     |
 
 ## 🔒 Security Notes
 
@@ -280,6 +293,39 @@ Paste a URL and ingest web content into the knowledge base.
 * Uploaded documents are processed locally before embedding
 
 ---
+## 🚧 Challenges & Learnings
+
+Building this project involved several engineering challenges beyond simply integrating an LLM API.
+
+### Challenges Faced
+
+* Designing an effective Retrieval-Augmented Generation (RAG) pipeline to ensure responses remained grounded in uploaded documents.
+* Determining appropriate chunk sizes and overlap values to balance retrieval quality and context preservation.
+* Integrating Hugging Face Inference APIs with LangChain while handling model compatibility issues and endpoint constraints.
+* Managing document metadata to provide accurate source attribution and page-level citations.
+* Persisting embeddings in ChromaDB while supporting incremental document ingestion.
+* Handling multiple document formats (PDF, TXT, Markdown, and URLs) through a unified ingestion workflow.
+
+### Key Learnings
+
+* Semantic search and vector similarity retrieval.
+* Document preprocessing and text chunking strategies.
+* Embedding generation using Sentence Transformers.
+* Retrieval-Augmented Generation (RAG) architecture design.
+* Prompt engineering for context-grounded responses.
+* LangChain orchestration and retriever pipelines.
+* Vector database management using ChromaDB.
+* End-to-end deployment of AI applications with Streamlit.
+
+## 📈 Project Highlights
+
+* End-to-end Retrieval-Augmented Generation (RAG) system.
+* Semantic document retrieval using vector embeddings.
+* Source-grounded question answering with citations.
+* Multi-format document ingestion (PDF, TXT, Markdown, URL).
+* Persistent vector storage using ChromaDB.
+* Interactive Streamlit-based user interface.
+* Integrated Hugging Face LLMs through LangChain.
 
 ## 🎯 Future Improvements
 
