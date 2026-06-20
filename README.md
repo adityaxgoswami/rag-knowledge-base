@@ -320,6 +320,7 @@ Paste a URL and ingest web content into the knowledge base.
 
 * GitHub: https://github.com/adityaxgoswami
 * LinkedIn: https://www.linkedin.com/in/adityaxgoswami/
+* Email: adityagoswami2424@gmail.com
 
 ---
 
