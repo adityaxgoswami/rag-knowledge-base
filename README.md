@@ -93,9 +93,9 @@ SEO Optimizer.pdf — page 2
 
 **Screenshot**
 
-```md
+
 ![Sources](assets/sources.png)
-```
+
 
 ---
 
