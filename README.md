@@ -73,7 +73,7 @@ The title of the document is
 **Screenshot**
 
 
-![Question Answering](architecture.drawio.png)
+![Question Answering](chat-demo.png)
 
 
 ---
