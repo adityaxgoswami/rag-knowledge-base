@@ -34,9 +34,9 @@ Supported formats:
 
 **Screenshot**
 
-```md
+
 ![Document Upload](assets/upload.png)
-```
+
 
 ---
 
@@ -59,9 +59,9 @@ The title of the document is
 
 **Screenshot**
 
-```md
+
 ![Question Answering](assets/chat-demo.png)
-```
+
 
 ---
 
@@ -320,6 +320,7 @@ Paste a URL and ingest web content into the knowledge base.
 
 * GitHub: https://github.com/adityaxgoswami
 * LinkedIn: https://www.linkedin.com/in/adityaxgoswami/
+* Email: adityagoswami2424@gmail.com
 
 ---
 
