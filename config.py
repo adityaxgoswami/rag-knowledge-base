@@ -1,0 +1,10 @@
+LLM_PROVIDER    =   "huggingface"   
+OLLAMA_MODEL   = "llama3"
+GROQ_MODEL     = "llama3-8b-8192"
+GROQ_API_KEY   = ""        
+EMBED_MODEL    = "sentence-transformers/all-MiniLM-L6-v2" 
+HF_MODEL       = "Qwen/Qwen2.5-7B-Instruct"  
+CHROMA_DIR     = "./chroma_db"
+CHUNK_SIZE     = 1000
+CHUNK_OVERLAP  = 150
+TOP_K          = 4
