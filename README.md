@@ -34,9 +34,9 @@ Supported formats:
 
 **Screenshot**
 
-```md
+
 ![Document Upload](assets/upload.png)
-```
+
 
 ---
 
@@ -59,9 +59,9 @@ The title of the document is
 
 **Screenshot**
 
-```md
+
 ![Question Answering](assets/chat-demo.png)
-```
+
 
 ---
 
