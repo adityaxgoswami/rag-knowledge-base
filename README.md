@@ -17,6 +17,11 @@ Try the application here:
 
 **GitHub:** https://github.com/adityaxgoswami/rag-knowledge-base
 
+## 🎥 Demo Video
+
+A complete walkthrough of document ingestion, semantic retrieval, and source-grounded question answering is available in the repository.
+
+[▶ Watch Demo](assets/demo.mp4)
 ---
 
 ## 🚀 Features

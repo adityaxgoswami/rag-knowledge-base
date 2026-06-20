@@ -11,7 +11,10 @@ import config
 
 load_dotenv()
 
-HUGGINGFACEHUB_API_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN")
+HUGGINGFACEHUB_API_TOKEN = (
+    st.secrets.get("HUGGINGFACEHUB_API_TOKEN")
+    or os.getenv("HUGGINGFACEHUB_API_TOKEN")
+)
 
 PROMPT_TEMPLATE = """
 You are an AI assistant answering questions about uploaded documents.
