@@ -1,10 +1,11 @@
-langchain 
 streamlit
 pypdf
-langchain-community
 langchain-huggingface
 langchain-groq
-chromadb
 unstructured
 sentence-transformers
 groq
+chromadb==0.4.24
+protobuf==3.20.3
+langchain==0.2.16
+langchain-community==0.2.16
