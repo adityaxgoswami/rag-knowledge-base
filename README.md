@@ -13,7 +13,7 @@ Built using **LangChain**, **ChromaDB**, **Hugging Face**, and **Streamlit**, th
 
 Try the application here:
 
-**Demo:** https://your-streamlit-link.streamlit.app
+**Demo:** [https://your-streamlit-link.streamlit.app](https://rag-knowledge-base-9afqdrvliqnu6kkjuc8ugk.streamlit.app/)
 
 **GitHub:** https://github.com/adityaxgoswami/rag-knowledge-base
 
